@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".Fragments.KitchenAppliancesFragment">
+
+    <Button
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Your Location"
+        android:textColor="#fff"
+        android:gravity="end"
+        android:padding="10dp"
+        android:layout_gravity="end"
+        android:fontFamily="@font/roboto_black"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/item1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/AirFryer_Img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/air_fryer_1299"/>
+                    <TextView
+                        android:id="@+id/AirFryer_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Air Fryer"
+                        android:textSize="20sp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_black"/>
+                    <TextView
+                        android:id="@+id/AirFryer_Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 1299"
+                        android:textSize="20dp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_black"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/item2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/blender_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/blender_2490"/>
+                    <TextView
+                        android:id="@+id/blender_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Blender"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/red"
+                        android:fontFamily="@font/roboto_black"/>
+                    <TextView
+                        android:id="@+id/blender_Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 2449"
+                        android:textSize="20dp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_black"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/item3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/CoffeeMaker_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/coffee_maker_2449"/>
+                    <TextView
+                        android:id="@+id/CoffeeMaker_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coffee Maker"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/red"
+                        android:fontFamily="@font/roboto_black"/>
+                    <TextView
+                        android:id="@+id/CoffeeMaker_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 6899"
+                        android:textSize="20dp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_black"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/item4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Dishwasher_Img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/dishwasher_1999"/>
+                    <TextView
+                        android:id="@+id/Dishwasher_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dishwasher"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/red"
+                        android:fontFamily="@font/roboto_black"/>
+                    <TextView
+                        android:id="@+id/Dishwasher_Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 1999"
+                        android:textSize="20dp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_black"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/item5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Microwave_Img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/microwave_7299"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Microwave"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/red"
+                        android:id="@+id/Microwave_Name"
+                        android:fontFamily="@font/roboto_black"/>
+                    <TextView
+                        android:id="@+id/Microwave_Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 7299"
+                        android:textSize="20dp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_black"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/item6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/HandMaker_Img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/hand_blender_383"/>
+                    <TextView
+                        android:id="@+id/HandMaker_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hand Blender"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/red"
+                        android:fontFamily="@font/roboto_black"/>
+                    <TextView
+                        android:id="@+id/HandMaker_Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 383"
+                        android:textSize="20dp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto_black"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

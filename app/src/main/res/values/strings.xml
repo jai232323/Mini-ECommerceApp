@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ECommerce</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="GotoCart">Go to Cart</string>
+    <string name="default_web_cliend_id" translatable="false">49535578121-hjkjohhimmqg9uiepg0k1g187950foo2.apps.googleusercontent.com</string>
+
+    <string name="API_KEY">AIzaSyBPU0Y6eSlKdMKEMXC_tuYoNv8gMlSexj0</string>
+</resources>
